@@ -1,0 +1,4 @@
+>>> Warning 202 "kayanled.c" Line 8(9,10): Variable never used:   c
+      Memory usage:   ROM=16%      RAM=5% - 9%
+      0 Errors,  1 Warnings.
+Build Successful.

@@ -1,0 +1,38 @@
+#include<16f628a.h>
+#fuses INTRC_IO,nomclr
+#use delay(clock=4m)
+
+int i[9]={1,2,4,8,16,32,64,128};
+int b=1,c=50;
+
+void main()
+{
+set_tris_b(0x00);
+output_b(0x00);
+
+while(true)
+{
+if(input(pin_a0))
+{
+c=c+100;
+delay_ms(10);
+}while(input(pin_a0));
+
+
+for(b=1; b<=8; b++)
+{
+output_b(i[b]);
+delay_ms(c);
+
+}
+
+for(b=8; 0<=b; b--)
+{
+output_b(i[b]);
+delay_ms(c);
+if(b==0)
+break;
+}
+}
+
+}

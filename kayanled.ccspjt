@@ -1,0 +1,60 @@
+[PROJECT]
+Target=kayanled.hex
+Processor_Text=PIC16F88
+CCSVersion=5.061
+Compiler=PCM
+[Target Data]
+FileList=kayanled.c
+[kayanled.c]
+Type=4
+[mru-list]
+1=kayanled.c
+
+[defines]
+buildcount=47
+
+[Opened Files]
+1=kayanled.c
+t1=13
+2=..\..\..\..\Program Files (x86)\PICC\Devices\16f88.h
+t2=357
+Count=2
+
+[ProjectLog]
+Days=4
+D1=28-02-2023
+D1_L=5
+D1_L1=[70779]Stopped Editing.
+TotalEdit=76
+TotalDebug=0
+D1_E=16
+D1_D=0
+D1_L2=[70779]Project Closed.
+D1_L3=[77609]Project Opened.
+D1_L4=[77649]Started Editing.
+D1_L5=[77950]Stopped Editing.
+D2=01-03-2023
+D2_L=6
+D2_L1=[75717]Project Opened.
+D2_L2=[75759]Project Closed.
+D2_L3=[78985]Project Opened.
+D2_L4=[79093]Started Editing.
+D2_L5=[80848]Stopped Editing.
+D2_E=30
+D2_D=0
+D2_L6=[80848]Project Closed.
+D3=02-03-2023
+D3_L=4
+D3_L1=[67908]Project Opened.
+D3_L2=[68026]Started Editing.
+D3_L3=[69788]Stopped Editing.
+D3_E=30
+D3_D=0
+D3_L4=[69788]Project Closed.
+D4=05-03-2023
+D4_L=2
+D4_L1=[71453]Project Opened.
+D4_L2=[71501]Project Closed.
+[Units]
+Count=1
+1=kayanled (main)

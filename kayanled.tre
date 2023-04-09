@@ -1,0 +1,19 @@
+ÀÄkayanled
+   ÀÄmain  0/206  Ram=1
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄ@ITOF  0/30  Ram=2
+      ÃÄ@MULFF  0/118  Ram=13
+      ÃÄ@SFTOI  0/32  Ram=4
+      ÃÄ@PSTRINGCN7_573  0/87  Ram=5
+      ³  ÃÄ@PUTCHAR_1_  0/34  Ram=1
+      ³  ÀÄ@PUTCHAR_1_  0/34  Ram=1
+      ÃÄ@PRINTF_LU_573  0/99  Ram=9
+      ³  ÀÄ@PUTCHAR_1_  0/34  Ram=1
+      ÃÄ@PSTRINGCN7_573  0/87  Ram=5
+      ³  ÀÄ*
+      ÃÄ@PRINTF_LU_573  0/99  Ram=9
+      ³  ÀÄ*
+      ÃÄ@PUTCHAR_1_  0/34  Ram=1
+      ÃÄ@PUTCHAR_1_  0/34  Ram=1
+      ÃÄ@delay_ms1  0/21  Ram=1
+      ÀÄ@delay_ms1  0/21  Ram=1

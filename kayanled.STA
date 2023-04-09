@@ -1,0 +1,53 @@
+
+ROM used:   645/4096 (16%)
+            645/4096 (16%) including unused fragments
+
+            0.9 Average locations per line
+            28.0 Average locations per statement
+
+RAM used:   20/368 (5%) at main() level
+            32/368 (9%) worst case
+
+Stack used: 2 worst case (2 in main + 0 for interrupts)
+Stack size: 8
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   69    23 100  kayanled.c
+  647     0   0  ..\..\..\..\Program Files (x86)\PICC\Devices\16f88.h
+----- -----
+  716    23 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     21   3    1             @delay_ms1
+0     34   5    1    608  6.7  @PUTCHAR_1_
+0    206  32    1    673  6.9  main
+0     30   5    2             @ITOF
+0    118  18   13             @MULFF
+0     32   5    4             @SFTOI
+0     14   2    0             @const591
+0     87  13    5             @PSTRINGCN7_573
+0     99  15    9             @PRINTF_LU_573
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               2
+    Statements              23
+    Comments                134
+    Volume (V)              1514
+    Difficulty (D)          12.6
+    Effort to implement (E) 19059
+    Time to implement (T)   18 minutes
+    Est Delivered Bugs (B)  0
+    Cyclomatic Complexity   6
+    Maintainability (MI)    102
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-007FF   641  1403  
+00800-00FFF     0  2048  
+
+
+

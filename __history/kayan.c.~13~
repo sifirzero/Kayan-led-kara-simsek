@@ -1,0 +1,31 @@
+#include<16f628a.h>
+#fuses INTRC_IO,nomclr
+#use delay(clock=4m)
+
+int i[9]={0,1,2,4,8,16,32,64,128};
+int b=0;
+
+void main()
+{
+set_tris_b(0x00);
+output_b(0x00);
+
+while(true)
+{
+if(b=0 )
+{
+output_b(i[b]);
+b=b+1;
+delay_ms(250);
+}
+
+if(b==9)
+{
+output_b(i[b]);
+b=b-1;
+delay_ms(250);
+
+}
+}
+
+}

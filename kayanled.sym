@@ -1,0 +1,93 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004-005 @WRITE_PROGRAM_MEMORY8.P2
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+020-027 i
+028     b
+029     c
+02A-02B bilgi
+02C-02D deger
+02E-02F @ITOF.P1
+02E-02F @PRINTF_LU_573.P2
+02E-031 @SFTOI.P3
+02E     @delay_ms1.P4
+02E-031 @MULFF.P5
+02E     @PSTRINGCN7_573.P6
+02E     main.@SCRATCH1
+02F     @PSTRINGCN7_573.@SCRATCH1
+030     @PSTRINGCN7_573.@SCRATCH2
+030     @PRINTF_LU_573.@SCRATCH1
+031     @PSTRINGCN7_573.@SCRATCH3
+031     @PRINTF_LU_573.@SCRATCH2
+032-035 @MULFF.P1
+032     @PSTRINGCN7_573.@SCRATCH4
+032     @PRINTF_LU_573.@SCRATCH3
+033     @PRINTF_LU_573.@SCRATCH4
+034     @PRINTF_LU_573.@SCRATCH5
+035     @PRINTF_LU_573.@SCRATCH6
+036     @MULFF.@SCRATCH1
+036     @PRINTF_LU_573.@SCRATCH7
+037     @PUTCHAR_1_.P1
+037     @MULFF.@SCRATCH2
+038     @MULFF.@SCRATCH3
+039     @MULFF.@SCRATCH4
+03A     @MULFF.@SCRATCH5
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+09C.6   C1OUT
+09C.7   C2OUT
+10D-10E @READ_PROGRAM_MEMORY8.P1
+10D-10E @WRITE_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  @const591.call
+000012  @ITOF
+000030  @MULFF
+0000A6  @SFTOI
+0000C6  @PUTCHAR_1_
+0000E8  @PSTRINGCN7_573
+00013F  @PRINTF_LU_573
+0001A2  @delay_ms1
+0001B7  main
+0001B7  @cinit1
+0001CD  @cinit2
+
+Project Directory:
+    C:\Users\serka\Desktop\kayanled\
+
+Project Files:
+    kayanled.c                                              [02-Mar-23 19:21  CRC=13467BF6]
+    ..\..\..\..\Program Files (x86)\PICC\Devices\16f88.h    [28-Haz-16 13:57  CRC=5E8AA56D]
+
+Source signature=D05BC6D0
+Program memory checksum=0000
+Program memory CRC=0000
+Hex file CRC=38B1
+
+Units:
+    kayanled (main)
+
+Compiler Settings:
+    Processor:      PIC16F88
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+
+Output Files:
+    XREF file:   kayanled.xsym
+    Errors:      kayanled.err
+    Ext Symbols: kayanled.esym
+    INHX8:       kayanled.hex
+    Symbols:     kayanled.sym
+    List:        kayanled.lst
+    Debug/COFF:  kayanled.cof
+    Project:     kayanled.ccspjt
+    Call Tree:   kayanled.tre
+    Statistics:  kayanled.STA
